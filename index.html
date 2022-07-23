@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="flex flex-col">
+    <section class="s flex flex-col">
+      <a href="#" class="home">HOME</a>
+      <input
+        type="text"
+        id="input-el"
+        class="input border-red-500 border-2 px-2 py-2 focus:outline-none"
+      />
+      <div class="bu flex flex-row">
+        <button
+          id="input-btn"
+          class="sa bg-red-500 px-4 py-1 text-red-100 w-full focus:outline-none"
+        >
+          SAVE
+        </button>
+        <button
+          id="tab-btn"
+          class="sa bg-red-500 px-4 py-1 text-red-100 w-full focus:outline-none"
+        >
+          SAVE TAB
+        </button>
+        <button
+          id="delete-btn"
+          class="b border-2 border-red-500 px-4 py-1 text-red-500 w-full focus:outline-none"
+        >
+          DELETE
+        </button>
+      </div>
+      <ul id="ul-el" class="ul"></ul>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
